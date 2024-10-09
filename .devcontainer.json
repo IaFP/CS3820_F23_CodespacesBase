@@ -1,0 +1,16 @@
+{
+  "name" : "CS:3820 F23 Base image",
+  "build" : { "dockerfile" : "Dockerfile" },
+  
+  "customizations": {
+    "vscode": {
+      "extensions" : ["haskell.haskell"]
+    },
+    "codespaces": {
+      "extensions" : ["haskell.haskell"]
+    }
+  },
+
+
+  "remoteUser": "vscode"
+}
